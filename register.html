@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Registration Page</title>
+  <style>
+    .container {
+      display: flex;
+    }
+    .left {
+      width: 50%;
+      float: left;
+    }
+    .right {
+      width: 50%;
+      float: right;
+    }
+    .form-group {
+      margin-bottom: 15px;
+    }
+    .form-group label {
+      display: inline-block;
+      width: 120px;
+      text-align: right;
+      margin-right: 10px;
+    }
+    .form-group input[type="text"],
+    .form-group input[type="email"],
+    .form-group input[type="tel"],
+    .form-group select {
+      width: 600px;
+    }
+    .form-group select {
+      width: 216px;
+    }
+    .form-group input[type="submit"] {
+      width: 120px;
+      margin-left: 130px;
+    }
+  </style>
+</head>
+<body style="background: linear-gradient(rgb(209, 0, 115),rgb(138, 12, 223));">
+</body>
+  <div style="background-color: white;" >      
+  <h2>Registration Form</h2>
+  <div class="container">
+    <div class="left">
+      <div class=>
+        <label for="first-name">First Name:</label><br>
+        <input type="text" id="first-name" name="first-name" required><br><br>
+      </div>
+      <div>
+        <label for="birthday">Birthday:</label>
+        <input type="date" id="birthday" name="birthday" required><br><br>
+      </div>
+      <div>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br><br>
+      </div>
+      <div>
+        <label for="subject">Subject:</label><br>
+        <input type="text" id="subject" name="subject"  required><br><br>
+      </div>
+    </div>
+    <div class="right">
+      <div>
+        <label for="last-name">Last Name:</label><br>
+        <input type="text" id="last-name" name="last-name" required>
+      </div>
+      <div>
+        <p>    Gender</p>
+        <input type="radio" id="html" name="fav_language" value="Male">
+        <label for="html">Male</label>
+        <input type="radio" id="css" name="fav_language" value="Female">
+        <label for="css">Female</label><br><br>
+      </div>
+      <div >
+        <label for="phone">Phone Number:</label><br>
+        <input type="tel" id="phone" name="phone" required>
+      </div>
+    </div>
+  </div>
+  <div class="form-group">
+    <input type="submit" value="Register">
+  </div>
+</div>
+</html>
